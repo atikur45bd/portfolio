@@ -13,7 +13,7 @@
     
 }
 .nav{
-    width: 80%;
+    width: 60%;
     
    
 }
@@ -133,6 +133,13 @@
         padding: 0px 0px;
         margin: 0px 0px;
     }
+
+    .logo-container img{
+        margin: 40px 40px;
+        width: 200px;
+        height: 200px;
+        
+    }
     .nav-container{
         flex-direction: column;
         
@@ -146,8 +153,12 @@
     .list-items{
         margin-top: 10px;
         flex-direction: column;
-        align-items: start;
-        font-size: 5px;   
+        align-items: center;
+         
+    }
+    .list-items a{
+        font-size: 40px; 
+        align-items: center;  
     }
     .list-items a:last-child{
         background-color: var(--common-color);
@@ -161,7 +172,8 @@
     
     }
     .banner-container-content{
-        font-size: 8px;
+        font-size: 20px;
+        width:fit-content;
     }
     .banner-title-desc {
         gap: 10px;
@@ -175,19 +187,42 @@
         width: 0;
         height: 0;
     }
+    .button-container{
+        font-size: 20px;
+    }
+    .protfolio-button{
+        align-items: center;
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+    .arrow-icon{
+        width: 35px;
+        height: 35px;
+    }
+    .social-media-profiles{
+        justify-content: center;
+       
+    }
+    .social-media-profiles img{
+        height: 50px;
+        width: 50px;
+    }
     .experience-banner-items {
-        width: fit-content;
-        height: 2px;
+        width: 100%;
+        height: 5px;
         gap: 2px;
     }
     .experience-banner-items a{
         display: flex;
-        font-size: 4px;
+        font-size: 8px;
         justify-content: center;
         align-items: center;
     }
     .profile-picture img{
-       width: 180px;
+       width: 300px;
+    }
+    .contact-form-message{
+        width: fit-content;
     }
    
 }
