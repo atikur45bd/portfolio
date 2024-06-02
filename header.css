@@ -55,6 +55,8 @@
 }
 .banner-title-desc{
     margin: 30px 0px;
+    
+    display: flex;
 }
 
 .button-container{
@@ -176,11 +178,8 @@
         width:fit-content;
     }
     .banner-title-desc {
-        gap: 10px;
+        gap: 15px;
         
-    }
-    .banner-title-desc span{
-        margin: 0 10px;
     }
     .banner-title-emoji{
         display: none;
