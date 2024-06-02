@@ -276,7 +276,11 @@
     .about-container-content{
         width: fit-content;
         font-size: 30px;
+        text-align: justify;
        
+    }
+    .about-desc {
+        font-size: 20px;
     }
     .about-container-content-experience{
         width: 100%;
@@ -289,7 +293,7 @@
         font-size: 20px;
         padding: 20px 40px;
         width: fit-content;
-        
+        text-align: justify;
     }
     .about-section-experience-container{
         padding: 10px 5px;
@@ -317,10 +321,7 @@
         padding: 20px 40px;
         flex-direction: column;
         text-align: start;
-        font-size: 25px;
-
-        
-        
+        font-size: 25px;   
     }
     .about-award--title h1{
         display: flex;
@@ -328,11 +329,19 @@
         align-items: start;
         margin-bottom: 10px;
     }
+    .about-award--title p{
+        font-size: 20px;
+        text-align: justify;
+    }
     .award-div{
         height: fit-content;
         margin: 40px 0px;
         padding: 20px 40px;
         flex-direction: column;
+    }
+    .award-div p{
+        font-size: 20px;
+        text-align: justify;
     }
     .award-div-title{
         flex-direction: column;
@@ -359,6 +368,10 @@
     .protfolio-title-container h1{
         font-size: 30px;
         
+    }
+    .protfolio-title-container p{
+        font-size: 20px;
+        text-align: justify;
     }
     .protfolio-header-container{
         align-items: start;
@@ -391,9 +404,13 @@
         width: fit-content;
         height: 100%;
     }
+    .protfolio-image-container img{
+        width: 95%;
+        height: 100%;
+    }
     
     .first-protfolio-image-container img{
-        width:fit-content;        
+        width:90%;        
         height: 100%;
     }
     .protfolio-disc-container{
@@ -401,6 +418,7 @@
     }
     .protfolio-disc-container p{
         font-size: 20px;
+        text-align: justify;
     }
     .contact-section-header {
         align-items: center;
