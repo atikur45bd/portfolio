@@ -12,16 +12,25 @@
 <body class="container">
     <header class="header-container">
         <div class="nav-container">
-            <div class="logo-container">
+            <!-- <div class="logo-container">
                 <img src="./images/logo.png" alt="">
-            </div>
+            </div> -->
             <div class="nav">
-                <ul class="list-items">
+                <ul class="list-items side-bar">
+                    <a onclick="hideNavBar()" href="#">&#10005;</a>
                     <a href="#">Home</a>
                     <a href="#about-section">About Me</a>
                     <a href="#portfolio-container">Projects</a>
                     <a href="#">Testimonials</a>
-                    <a href="./images/CV of MD. Atikur Rahman.pdf" target="_blank">Downlaod CV</a>
+                    <a href="./images/Atikur resume.pdf" target="_blank" download="">Resume</a>
+                </ul>
+                <ul class="list-items">
+                    <a class="hide-bar-small-device" href="#">Home</a>
+                    <a class="hide-bar-small-device" href="#about-section">About Me</a>
+                    <a class="hide-bar-small-device" href="#portfolio-container">Projects</a>
+                    <a class="hide-bar-small-device" href="#">Testimonials</a>
+                    <a class="hide-bar-small-device"  href="./images/Atikur resume.pdf" target="_blank" download="">Resume</a>
+                    <a onclick="showNavBar()" class="menu-bar" href="#">&#9776;</a>
                 </ul>
             </div>
         </div>
@@ -304,9 +313,9 @@
         </section>
         <footer class="footer-section">
             <div class="footer-body">
-                <div class="footer-logo">
+                <!-- <div class="footer-logo">
                     <img src="./images/logo.png" alt="">
-                </div>
+                </div> -->
                 <div class="footer-nav">
                     <div class="footer-nav-items">
                         <a href="#">Home</a>
@@ -345,6 +354,6 @@
             </div>
         </footer>
     </main>
-    
+    <script src="./script.js"></script>
 </body>
 </html>
